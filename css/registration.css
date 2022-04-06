@@ -1,0 +1,152 @@
+@import "reset.css";
+
+.page-name {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 1600px;
+    height: 148px;
+    margin: 0 auto;
+    background-color: #F8F3F4;
+}
+
+.page-name__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: var(--dark-pink);
+}
+
+.reg {
+    width: 1600px;
+    height: 675px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.ref__wrp {
+    display: flex;
+    justify-content: left;
+    padding: 64px 0 0 0;
+    box-sizing: border-box;
+}
+
+.reg__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+}
+
+.reg__form-title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black-bkg);
+}
+
+.reg__form-input {
+    margin: 21px 0 0 0;
+    padding: 0 0 0 17px;
+    width: 360px;
+    height: 44px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    box-sizing: border-box;
+    outline: 1px solid #A4A4A4;
+}
+
+.reg__form-input::placeholder {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.reg__form-checked {
+    margin: 31px 0 33px 0;
+}
+
+.reg__form-text {
+    width: 360px;
+    margin: 16px 0 0 0;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.reg__form-btn {
+    width: 167px;
+    height: 50px;
+    margin: 39px 0 0 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white-bkg);
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border: none;
+    background-color: var(--dark-pink);
+}
+
+.reg__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+}
+
+.reg__info-title {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.reg__info-text {
+    margin: 22px 0 0 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--black);
+}
+
+
+.reg__info-item {
+    position: relative;
+    left: 38px;
+    margin: 28px 0 0 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--black);
+}
+
+.reg__info-item:after {
+    position: absolute;
+    top: 5px;
+    left: -38px;
+    content: '';
+    width: 20px;
+    height: 16px;
+    background-image: url("../img/check.png");
+    background-size: 20px 16px;
+}
+
+.reg__form-input:hover,
+.reg__form-input:focus {
+    outline: 1px solid var(--dark-pink);
+    background: white;
+    cursor: pointer;
+}
+
+
+/*[type="radio"] {*/
+/*    display: none;*/
+/*}*/
+
