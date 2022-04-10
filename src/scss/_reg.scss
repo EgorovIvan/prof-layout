@@ -1,0 +1,113 @@
+@import "var";
+@import "mixins";
+
+.reg {
+  width: 1600px;
+  height: 675px;
+  margin: 0 auto;
+
+  &__wrp {
+    display: flex;
+    justify-content: left;
+    padding: 64px 0 0 0;
+    box-sizing: border-box;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+  }
+
+  &__form-title {
+    @include font(16px, 19px, 300);
+    color: $black-bkg;
+  }
+
+  &__form-input {
+    margin: 21px 0 0 0;
+    padding: 0 0 0 17px;
+    width: 360px;
+    height: 44px;
+    @include font(13px, 16px, 300);
+    box-sizing: border-box;
+    color: #B1B1B1;
+    border: none;
+    outline: 1px solid #A4A4A4;
+  }
+
+  &__form-input::placeholder {
+    @include font(13px, 16px, 300);
+    color: #B1B1B1;
+  }
+
+  &__form-checked {
+    margin: 31px 0 33px 0;
+  }
+
+  &__form-text {
+    width: 360px;
+    margin: 16px 0 0 0;
+    @include font(13px, 16px, 300);
+    color: #B1B1B1;
+  }
+
+  &__form-btn {
+    width: 167px;
+    height: 50px;
+    margin: 39px 0 0 0;
+    @include font(14px, 17px, 400);
+    color: $white-bkg;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border: none;
+    background-color: $dark-pink;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+  }
+
+  &__info-title {
+    @include font(24px, 29px, 300);
+    text-transform: uppercase;
+    color: $black;
+  }
+
+  &__info-text {
+    margin: 22px 0 0 0;
+    @include font(24px, 29px, 300);
+    color: $black;
+  }
+
+
+  &__info-item {
+    position: relative;
+    left: 38px;
+    margin: 28px 0 0 0;
+    @include font(24px, 29px, 300);
+    color: $black;
+  }
+
+  &__info-item:after {
+    position: absolute;
+    top: 5px;
+    left: -38px;
+    content: '';
+    width: 20px;
+    height: 16px;
+    background-image: url("../img/check.png");
+    background-size: 20px 16px;
+  }
+
+  &__form-input:hover,
+  &__form-input:focus {
+    outline: 1px solid $dark-pink;
+    background: white;
+    cursor: pointer;
+  }
+}

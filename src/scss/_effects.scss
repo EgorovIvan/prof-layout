@@ -1,0 +1,74 @@
+@import "var";
+
+.link:hover,
+.link:focus {
+  color: $dark-pink;
+  cursor: pointer;
+}
+
+.link:active {
+  color: #6F6E6E;
+}
+
+.btn:hover,
+.btn:focus,
+.cart__btn:hover,
+.cart__btn:focus {
+  background-color: $dark-pink;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: $white-bkg;
+}
+
+.btn:hover .btn-text,
+.btn:focus .btn-text {
+  color: $white-bkg;
+}
+
+.btn:active,
+.cart__btn:active {
+  opacity: 0.7;
+}
+
+.icon {
+  fill: #E8E8E8;
+}
+
+.icon-el1 {
+  fill: $white-bkg;
+}
+
+.icon-el2 {
+  fill: $black;
+}
+.icon:hover,
+.icon:focus,
+.link-icon:focus .icon,
+.link-icon:hover .icon-el1,
+.link-icon:focus .icon-el1 {
+  fill: $dark-pink;
+}
+
+.link-icon:hover .icon-el2,
+.link-icon:focus .icon-el2 {
+  fill: $white-bkg;
+}
+
+.btn-icon:hover .icon,
+.btn-icon:focus .icon {
+  fill: $dark-pink;
+}
+
+.icon:active,
+.link-icon:active .icon-el1,
+.btn-icon:active .icon {
+  fill: #6F6E6E;
+}
+
+.input:hover,
+.input:focus {
+  outline: 1px solid $dark-pink;
+  background: white;
+  cursor: pointer;
+}

@@ -1,0 +1,193 @@
+@import "var";
+@import "mixins";
+@import "effects";
+
+.shop {
+  width: 1600px;
+  margin: 0 auto;
+
+  &__wrp {
+    display: flex;
+    justify-content: space-between;
+    height: 998px;
+  }
+}
+
+.shop-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin: 96px 0 0 0;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 652px;
+    height: 306px;
+    margin: 0 0 40px 0;
+    -webkit-box-shadow: 25px 25px 25px 0 rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 25px 25px 25px 0 rgba(0, 0, 0, 0.18);
+    box-shadow: 25px 25px 25px 0 rgba(0, 0, 0, 0.18);
+  }
+
+  &__info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 390px;
+    height: 306px;
+    padding: 22px 22px 22px 31px;
+  }
+
+  &__title {
+    margin: 0 0 42px 0;
+    text-transform: uppercase;
+    @include font(24px, 29px, 400);
+    color: $black-bkg;
+  }
+
+  &__text {
+    margin: 0 0 6px 0;
+    @include font(22px, 26px, 400);
+    color: #575757;
+  }
+
+  &__input {
+    text-align: center;
+    width: 41px;
+    height: 22px;
+    box-sizing: border-box;
+    color: #656565;
+    border: none;
+    outline: 1px solid #EAEAEA;;
+  }
+
+  &__btn-close {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    border: none;
+    background-color: $white-bkg;
+  }
+
+  &__btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 652px;
+  }
+
+  &__btn {
+    text-align: center;
+    width: 235px;
+    height: 50px;
+    @include font(14px, 17px, 300);
+    color: $black;
+    text-transform: uppercase;
+    background-color: $white-bkg;
+    border: 1px solid #A4A4A4;
+  }
+}
+
+.shop-shipping {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 360px;
+  margin: 96px 0 0 0;
+
+  &__title {
+    @include font(16px, 19px, 300);
+    color: $black-bkg;
+    text-transform: uppercase;
+  }
+
+  &__input {
+    width: 360px;
+    height: 45px;
+    margin: 21px 0 0 0;
+    padding: 0 0 0 17px;
+    box-sizing: border-box;
+    border: none;
+    outline: 1px solid #A4A4A4;
+    @include font(13px, 16px, 300);
+    color: $black-bkg;
+    background: #FFFFFF;
+  }
+
+  &__input::placeholder {
+    @include font(13px, 16px, 300);
+    color: #B1B1B1;
+  }
+
+  &__btn {
+    width: 100px;
+    height: 34px;
+    margin: 24px 0 0 0;
+    box-sizing: border-box;
+    border: 1px solid #A4A4A4;
+    @include font(11px, 13px, 400);
+    color: #4A4A4A;
+    text-transform: uppercase;
+    background: #FFFFFF;
+  }
+}
+
+.shop-total {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  width: 360px;
+  height: 214px;
+  margin: 58px 0 0 0;
+  padding: 39px 34px;
+  box-sizing: border-box;
+  background-color: #F5F3F3;
+
+  &__text {
+    margin: 0 0 0 auto;
+    @include font(11px, 13px, 400);
+    text-transform: uppercase;
+    color: #4A4A4A;
+  }
+
+  &__title {
+    margin: 12px 0 0 auto;
+    @include font(16px, 19px, 300);
+    color: $black-bkg;
+    text-transform: uppercase;
+  }
+
+  &__line {
+    width: 275px;
+    height: 2px;
+    margin: 21px 0 0 0;
+    border: none;
+    background: #E2E2E2;
+  }
+
+  &__btn {
+    width: 273px;
+    height: 50px;
+    margin: 17px 0 0 0;
+    @include font(16px, 19px, 300);
+    color: $white-bkg;
+    text-transform: uppercase;
+    border: none;
+    background-color: $dark-pink;
+  }
+}

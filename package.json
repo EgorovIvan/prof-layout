@@ -1,0 +1,28 @@
+{
+  "name": "prof-layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "gulp sass start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EgorovIvan/prof-layout.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "Ivan Egorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EgorovIvan/prof-layout/issues"
+  },
+  "homepage": "https://github.com/EgorovIvan/prof-layout#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.50.0"
+  }
+}
