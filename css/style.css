@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "registration.css";
 
 :root {
     --black-bkg: #222222;
@@ -8,7 +9,6 @@
     --light-gray: #9F9F9F;
     --dark-pink: #F16D7F;
     --sales-pbkg-color: #4F4745;
-
 }
 
 body {
@@ -85,7 +85,6 @@ body {
     padding: 16px 16px 16px 33px;
     box-sizing: border-box;
     background-color: var(--white-bkg);
-    pointer-events: none;
     transition: 0.3s;
     opacity: 0;
 }
@@ -94,6 +93,15 @@ body {
     margin-left: auto;
     border: none;
     background-color: var(--white-bkg);
+}
+
+.btn-close {
+    fill: #6F6E6E;
+}
+
+.btn-close:hover,
+.btn-close:focus {
+    fill: #222222;
 }
 
 .header__title {
@@ -452,6 +460,7 @@ body {
     padding-left: 20px;
     width: 264px;
     height: 49px;
+    font-family: inherit;
     box-sizing: border-box;
     border: none;
     border-radius: 25px 0 0 25px;
@@ -504,5 +513,63 @@ body {
     padding: 0 0 0 7px;
 }
 
+.link:hover,
+.link:focus {
+    color: var(--dark-pink);
+    cursor: pointer;
+}
 
+.link:active {
+    color: #6F6E6E;
+}
 
+.btn:hover,
+.btn:focus {
+    background-color: var(--dark-pink);
+    cursor: pointer;
+    outline: none;
+    color: var(--white-bkg)
+}
+
+.btn:hover .btn-text,
+.btn:focus .btn-text {
+    color: var(--white-bkg)
+}
+
+.btn:active {
+    opacity: 0.7;
+}
+
+.icon {
+    fill: #E8E8E8;;
+}
+
+.icon-el1 {
+    fill: var(--white-bkg);
+}
+
+.icon-el2 {
+    fill: var(--black);
+}
+.icon:hover,
+.icon:focus,
+.icon:hover .icon-el1,
+.icon:focus .icon-el1 {
+    fill: var(--dark-pink);
+}
+
+.icon:hover .icon-el2,
+.icon:focus .icon-el2 {
+    fill: var(--white-bkg);
+}
+
+.btn-icon:hover .icon,
+.btn-icon:focus .icon {
+    fill: var(--dark-pink);
+}
+
+.icon:active,
+.icon:active .icon-el1,
+.btn-icon:active .icon {
+    fill: #6F6E6E;
+}
