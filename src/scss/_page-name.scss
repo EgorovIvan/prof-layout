@@ -10,6 +10,16 @@
   margin: 0 auto;
   background-color: #F8F3F4;
 
+  @include tablet {
+    width: 768px;
+  }
+
+  @include mobile {
+    width: 375px;
+    justify-content: center;
+    text-align: center;
+  }
+
   &__title {
     @include font(24px, 29px, 400);
     text-transform: uppercase;
