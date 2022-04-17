@@ -1,0 +1,59 @@
+@import "var";
+@import "mixins";
+
+.sales {
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 0 96px 0;
+  }
+
+  &__item {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 360px;
+    min-height: 260px;
+  }
+
+  &__item-woman {
+    @include flex-center;
+    flex-direction: column;
+    background-image: url('../img/for-women.jpg');
+  }
+
+  &__item-man {
+    @include flex-center;
+    flex-direction: column;
+    background-image: url('../img/for-men.jpg');
+  }
+
+  &__item-kids {
+    @include flex-center;
+    flex-direction: column;
+    background-image: url('../img/for-kids.jpg');
+  }
+
+  &__slogan {
+    @include font(16px, 19px, 400);
+    color: $white-bkg;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    @include font(24px, 28px, 700);
+    color: $dark-pink;
+    text-transform: uppercase;
+  }
+
+  &__item-shoes {
+    @include flex-center;
+    flex-direction: column;
+    height: 180px;
+    width: 100%;
+    margin: 30px 0 0 0;
+    background-image: url('../img/accesories.jpg');
+  }
+
+}

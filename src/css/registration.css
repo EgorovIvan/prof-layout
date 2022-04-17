@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "style.css";
 
 .page-name {
     display: flex;
@@ -25,7 +26,7 @@
     box-sizing: border-box;
 }
 
-.ref__wrp {
+.reg__wrp {
     display: flex;
     justify-content: left;
     padding: 64px 0 0 0;
@@ -144,9 +145,4 @@
     background: white;
     cursor: pointer;
 }
-
-
-/*[type="radio"] {*/
-/*    display: none;*/
-/*}*/
 

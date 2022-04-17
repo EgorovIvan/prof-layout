@@ -1,0 +1,88 @@
+@import "var";
+@import "mixins";
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+
+
+  &__title {
+    margin: 0 0 6px 0;
+    @include font(30px, 36px, 400);
+    color: $black-bkg;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin: 0 0 48px 0;
+    @include font(14px, 17px, 400);
+    color: $light-gray;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 581px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin: 0 0 48px 0;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    width: 360px;
+    height: 581px;
+    background-color: #F8F8F8;
+  }
+
+  &__item-title {
+    margin: 25px 0 12px 0;
+    padding: 0 0 0 18px;
+    @include font(13px, 16px, 400);
+    color: $black;
+    text-transform: uppercase;
+  }
+
+  &__item-text {
+    margin: 0 0 18px 0;
+    padding: 0 0 0 18px;
+    @include font(14px, 17px, 300);
+    color: #5D5D5D;
+  }
+
+  &__item-price {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 18px;
+    @include font(16px, 19px, 400);
+    color: $dark-pink;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    width: 211px;
+    height: 47px;
+    margin: 0 auto 95px auto;
+    box-sizing: border-box;
+    border: 1px solid $dark-pink;
+  }
+
+  &__btn-link {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 13px;
+    @include font(16px, 19px, 400);;
+    color: $dark-pink;
+  }
+}
