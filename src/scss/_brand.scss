@@ -18,8 +18,10 @@
   }
 
   &__img {
+    width: 50%;
+
     @include tablet {
-      width: 385px;
+      width: 50%;
       height: 369px;
     }
 
