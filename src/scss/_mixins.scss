@@ -1,3 +1,5 @@
+@import "var";
+
 @mixin font($font-size: 22px, $line-height: 24px, $font-weight:400, $font-style: normal) {
   font-size: $font-size;
   line-height: $line-height;
@@ -9,4 +11,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@mixin tablet {
+  @media (max-width: $desktop-width) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $tablet-width) {
+    @content;
+  }
 }

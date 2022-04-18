@@ -8,16 +8,40 @@
   margin: 0 auto;
   background-color: $black-bkg;
 
+  @include tablet {
+    align-items: start;
+    width: 768px;
+    height: 610px;
+  }
+
+  @include mobile {
+    width: 375px;
+  }
+
   &__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include tablet {
+      flex-direction: column;
+      justify-content: left;
+    }
   }
 
   &__item {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @include tablet {
+      width: 360px;
+      padding: 48px 0 0 0;
+    }
+
+    @include mobile {
+      width: 343px;
+    }
   }
 
   &__title {

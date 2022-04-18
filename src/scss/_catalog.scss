@@ -9,7 +9,6 @@
   text-align: center;
   margin: 0 auto;
 
-
   &__title {
     margin: 0 0 6px 0;
     @include font(30px, 36px, 400);
@@ -21,15 +20,39 @@
     margin: 0 0 48px 0;
     @include font(14px, 17px, 400);
     color: $light-gray;
+
+    @include tablet {
+      margin: 0 0 74px 0;
+    }
+
+    @include mobile {
+        margin: 0 0 64px 0;
+    }
   }
 
   &__list {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 581px);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     margin: 0 0 48px 0;
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 581px);
+      grid-column-gap: 16px;
+      grid-row-gap: 18px;
+      margin: 0 0 33px 0;
+    }
+
+    @include mobile {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(6, 581px);
+      left: -8px;
+      margin: 0 0 41px 0;
+    }
   }
 
   &__item {
@@ -74,6 +97,14 @@
     margin: 0 auto 95px auto;
     box-sizing: border-box;
     border: 1px solid $dark-pink;
+
+    @include tablet {
+      margin: 0 auto 65px auto;
+    }
+
+    @include mobile {
+      margin: 0 auto 96px auto;
+    }
   }
 
   &__btn-link {
