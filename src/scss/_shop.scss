@@ -120,10 +120,16 @@
     }
   }
 
+  &__color-text {
+    color: $dark-pink;
+  }
+
   &__input {
     text-align: center;
     width: 41px;
     height: 22px;
+    margin: 0 0 0 30px;
+    @include font(18px, 22px, 400);
     box-sizing: border-box;
     color: #656565;
     border: none;
@@ -274,11 +280,31 @@
     color: #4A4A4A;
   }
 
+  &__text-input {
+    text-align: right;
+    width: 50px;
+    @include font(11px, 13px, 400);
+    color: #4A4A4A;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+  }
+
   &__title {
     margin: 12px 0 0 auto;
     @include font(16px, 19px, 300);
     color: $black-bkg;
     text-transform: uppercase;
+  }
+
+  &__title-input {
+    text-align: right;
+    width: 60px;
+    @include font(16px, 19px, 300);
+    color: $dark-pink;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
   }
 
   &__line {
