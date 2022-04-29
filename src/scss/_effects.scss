@@ -74,3 +74,56 @@
   background: white;
   cursor: pointer;
 }
+.col-icon {
+  fill: $dark-pink;
+}
+
+.col-icon:hover,
+.col-icon:focus,
+.col-icon:active {
+  fill: $white-bkg
+}
+
+.btn:hover .col-icon,
+.btn:focus .col-icon,
+.btn:active .col-icon {
+  fill: $white-bkg
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover,
+.arrow:active {
+  cursor: pointer;
+}
+
+.arrow:active {
+  opacity: 0.7;
+}
+
+
+.btn-prev,
+.btn-next {
+  fill: $black
+}
+
+.btn-prev:hover,
+.btn-next:hover,
+.btn-prev:focus,
+.btn-next:focus,
+.arrow:hover .btn-prev,
+.arrow:focus .btn-prev,
+.arrow:hover .btn-next,
+.arrow:focus .btn-next {
+  fill: $dark-pink
+}
+
+.btn-prev:active,
+.btn-next:active,
+.arrow:active .btn-prev,
+.arrow:active .btn-next {
+  fill: $white-bkg
+}
+
