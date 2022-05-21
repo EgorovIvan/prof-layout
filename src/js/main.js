@@ -33,7 +33,18 @@ $(document).ready(function () {
             searchInput.disabled = true;
             searchInput.value = "";
         }
-    })
+    });
 
+    let filterMenu = document.querySelector('.filter__menu');
+    let filterBtn = document.querySelector('.filter__btn-menu');
 
+    document.querySelector('.open-filter').onclick = function() {
+        filterMenu.style.opacity = '1';
+        filterBtn.style.zIndex = '1';
+    };
+
+    document.querySelector('.close-filter').onclick = function() {
+        filterMenu.style.opacity = '0';
+        filterBtn.style.zIndex = '4';
+    };
 });

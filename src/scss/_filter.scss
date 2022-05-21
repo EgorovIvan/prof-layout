@@ -1,0 +1,138 @@
+@import "var";
+@import "mixins";
+
+.filter {
+
+  &__wrp {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 51px auto 64px auto;
+
+    @include tablet {
+      justify-content: space-between;
+      margin: 28px auto 40px auto;
+    }
+    @include mobile {
+      margin: 24px auto 32px auto;
+    }
+  }
+
+  &__btn-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+  }
+
+  &__title {
+    margin: 0 12px 0 0;
+    @include font(14px, 17px, 600);
+    color: $black;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    @include mobile {
+      display: none;
+    }
+  }
+
+  &__burger {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+
+    @include mobile {
+      width: 37.5px;
+      height: 25px;
+    }
+  }
+
+  &__menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    top: -13px;
+    left: 0;
+    width: 360px;
+    height: 531px;
+    padding: 16px 16px 16px 16px;
+    -webkit-box-shadow: 0px 5px 59px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 59px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 59px 2px rgba(34, 60, 80, 0.2);
+    box-sizing: border-box;
+    background-color: $white-bkg;
+    z-index: 2;
+    transition: 0.3s;
+    opacity: 0;
+  }
+
+  &__menu-title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 16px 0 0 0;
+    @include font(14px, 17px, 400);
+    color: $dark-pink;
+    text-transform: uppercase;
+  }
+
+  &__menu-img {
+    width: 5px;
+    height: 37px;
+    margin: 0 11px 0 0;
+    z-index: 3;
+  }
+
+  &__hr-title {
+    position: relative;
+    width: 327px;
+    height: 0;
+    top: -2px;
+    margin: 0 0 18px 0;
+    background-color: #EBEBEB;
+    border: 1px solid #EBEBEB;
+    z-index: 2;
+  }
+
+  &__submenu-list {
+    margin: 20px 0 20px 5px;
+  }
+
+  &__submenu-item {
+    margin: 11px;
+    @include font(14px, 17px, 400);
+    color: #6F6E6E;
+  }
+
+  &__select-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 300px;
+
+    @include tablet {
+      margin: 0;
+    }
+  }
+
+  &__select {
+    margin: 0 0 0 18px;
+    @include font(14px, 17px, 400);
+    color: #6F6E6E;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+
+    @include mobile {
+      @include font(10px, 12px, 400);
+    }
+  }
+}
+
+.color-active {
+  color: $dark-pink;
+  fill: $dark-pink;
+}

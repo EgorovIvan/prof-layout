@@ -12,13 +12,11 @@ $(document).ready(function(){
         position += width;
         position = Math.min(position, 0)
         list.style.marginLeft = position + 'px';
-        console.log(position)
     };
 
     carousel.querySelector('.carousel__next').onclick = function() {
         position -= width;
         position = Math.max(position, -width * (listElems.length - count));
         list.style.marginLeft = position + 'px';
-        console.log(position)
     };
 });
