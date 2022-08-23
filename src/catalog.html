@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -13,11 +13,6 @@
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&display=swap"
-          rel="stylesheet">
-
 </head>
 
 <body>
@@ -208,18 +203,71 @@
         </div>
     </section>
     <section class="filter">
-        <div class="container filter__wrp">
+        <div class="container filter__wrp" >
             <div class="filter__btn-menu">
-                <h2 class="filter__title">Filter</h2>
-                <svg class="filter__burger" width="15" height="10" viewBox="0 0 15 10" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667
-                8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167
-                0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667
-                0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10
-                4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333
-                0.833333 5.83333Z"/>
-                </svg>
+                <h2 class="filter__title open-filter">Filter</h2>
+                <button class="filter__burger open-filter">
+                    <svg width="15" height="10" viewBox="0 0 15 10"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667
+                    8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167
+                    0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667
+                    0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10
+                    4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333
+                    0.833333 5.83333Z"/>
+                    </svg>
+                </button>
             </div>
+            <div class="filter__menu">
+                <div class="filter__btn-menu">
+                    <h2 class="filter__title color-active close-filter">Filter</h2>
+                    <button class="filter__burger color-active close-filter">
+                        <svg width="15" height="10" viewBox="0 0 15 10"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667
+                        8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167
+                        0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667
+                        0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10
+                        4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333
+                        0.833333 5.83333Z"/>
+                        </svg>
+                    </button>
+                </div>
+                <ul class="filter__menu-list">
+                    <li class="filter__menu-item">
+                        <h2 class="filter__menu-title">
+                            <img class="filter__menu-img" src="./img/pillar.png" alt="pillar"> category
+                        </h2>
+                        <hr class="filter__hr-title">
+                        <ul class="filter__submenu-list">
+                            <li class="filter__submenu-item">Accessories</li>
+                            <li class="filter__submenu-item">Bags</li>
+                            <li class="filter__submenu-item">Denim</li>
+                            <li class="filter__submenu-item">Hoodies & Sweatshirts</li>
+                            <li class="filter__submenu-item">Jackets & Coats</li>
+                            <li class="filter__submenu-item">Polos</li>
+                            <li class="filter__submenu-item">Shirts</li>
+                            <li class="filter__submenu-item">Shoes</li>
+                            <li class="filter__submenu-item">Sweaters & Knits</li>
+                            <li class="filter__submenu-item">T-Shirts</li>
+                            <li class="filter__submenu-item">Tanks</li>
+                        </ul>
+                    </li>
+                    <li class="filter__menu-item">
+                        <h2 class="filter__menu-title">
+                            <img class="filter__menu-img" src="./img/pillar.png" alt="pillar">brand
+                        </h2>
+                        <hr class="filter__hr-title">
+                    </li>
+                    <li class="filter__menu-item">
+                        <h2 class="filter__menu-title">
+                            <img class="filter__menu-img" src="./img/pillar.png" alt="pillar">designer
+                        </h2>
+                        <hr class="filter__hr-title">
+                    </li>
+                </ul>
+            </div>
+
             <div class="filter__select-list">
                 <select class="filter__select btn" aria-label="Default select example">
                     <option selected>trending now</option>
@@ -247,78 +295,87 @@
         <div class="container catalog__wrp">
             <h2 class="visually-hidden">sales</h2>
             <ul class="catalog__list">
-                <li class="catalog__item">
-                    <img class="catalog__img" src="img/product-4.jpg" alt="product-3">
-                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>
-                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring, Australian
-                        arbiter
-                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>
-                    <p class="catalog__item-price">$52.00</p>
-                </li>
-                <li class="catalog__item">
-                    <img class="catalog__img" src="img/product-3.jpg" alt="product-4">
-                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>
-                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring, Australian
-                        arbiter
-                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>
-                    <p class="catalog__item-price">$52.00</p>
-                </li>
-                <li class="catalog__item item">
-                    <img class="catalog__img" src="img/product-6.jpg" alt="product-5">
-                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>
-                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring, Australian
-                        arbiter
-                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>
-                    <p class="catalog__item-price">$52.00</p>
-                </li>
-                <li class="catalog__item">
-                    <img class="catalog__img" src="img/product-4.jpg" alt="product-3">
-                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>
-                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring, Australian
-                        arbiter
-                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>
-                    <p class="catalog__item-price">$52.00</p>
-                </li>
-                <li class="catalog__item">
-                    <img class="catalog__img" src="img/product-3.jpg" alt="product-4">
-                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>
-                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring, Australian
-                        arbiter
-                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>
-                    <p class="catalog__item-price">$52.00</p>
-                </li>
-                <li class="catalog__item">
-                    <img class="catalog__img" src="img/product-6.jpg" alt="product-5">
-                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>
-                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring, Australian
-                        arbiter
-                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>
-                    <p class="catalog__item-price">$52.00</p>
-                </li>
-                <li class="catalog__item">
-                    <img class="catalog__img" src="img/product-4.jpg" alt="product-3">
-                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>
-                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring, Australian
-                        arbiter
-                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>
-                    <p class="catalog__item-price">$52.00</p>
-                </li>
-                <li class="catalog__item">
-                    <img class="catalog__img" src="img/product-3.jpg" alt="product-4">
-                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>
-                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring, Australian
-                        arbiter
-                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>
-                    <p class="catalog__item-price">$52.00</p>
-                </li>
-                <li class="catalog__item">
-                    <img class="catalog__img" src="img/product-6.jpg" alt="product-5">
-                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>
-                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring, Australian
-                        arbiter
-                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>
-                    <p class="catalog__item-price">$52.00</p>
-                </li>
+<!--                <li class="catalog__item">-->
+<!--                    <img class="catalog__img" src="img/product-4.jpg" alt="product-3">-->
+<!--                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>-->
+<!--                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring,-->
+<!--                        Australian-->
+<!--                        arbiter-->
+<!--                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>-->
+<!--                    <p class="catalog__item-price">$52.00</p>-->
+<!--                </li>-->
+<!--                <li class="catalog__item">-->
+<!--                    <img class="catalog__img" src="img/product-3.jpg" alt="product-4">-->
+<!--                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>-->
+<!--                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring,-->
+<!--                        Australian-->
+<!--                        arbiter-->
+<!--                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>-->
+<!--                    <p class="catalog__item-price">$52.00</p>-->
+<!--                </li>-->
+<!--                <li class="catalog__item item">-->
+<!--                    <img class="catalog__img" src="img/product-6.jpg" alt="product-5">-->
+<!--                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>-->
+<!--                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring,-->
+<!--                        Australian-->
+<!--                        arbiter-->
+<!--                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>-->
+<!--                    <p class="catalog__item-price">$52.00</p>-->
+<!--                </li>-->
+<!--                <li class="catalog__item">-->
+<!--                    <img class="catalog__img" src="img/product-4.jpg" alt="product-3">-->
+<!--                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>-->
+<!--                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring,-->
+<!--                        Australian-->
+<!--                        arbiter-->
+<!--                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>-->
+<!--                    <p class="catalog__item-price">$52.00</p>-->
+<!--                </li>-->
+<!--                <li class="catalog__item">-->
+<!--                    <img class="catalog__img" src="img/product-3.jpg" alt="product-4">-->
+<!--                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>-->
+<!--                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring,-->
+<!--                        Australian-->
+<!--                        arbiter-->
+<!--                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>-->
+<!--                    <p class="catalog__item-price">$52.00</p>-->
+<!--                </li>-->
+<!--                <li class="catalog__item">-->
+<!--                    <img class="catalog__img" src="img/product-6.jpg" alt="product-5">-->
+<!--                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>-->
+<!--                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring,-->
+<!--                        Australian-->
+<!--                        arbiter-->
+<!--                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>-->
+<!--                    <p class="catalog__item-price">$52.00</p>-->
+<!--                </li>-->
+<!--                <li class="catalog__item">-->
+<!--                    <img class="catalog__img" src="img/product-4.jpg" alt="product-3">-->
+<!--                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>-->
+<!--                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring,-->
+<!--                        Australian-->
+<!--                        arbiter-->
+<!--                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>-->
+<!--                    <p class="catalog__item-price">$52.00</p>-->
+<!--                </li>-->
+<!--                <li class="catalog__item">-->
+<!--                    <img class="catalog__img" src="img/product-3.jpg" alt="product-4">-->
+<!--                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>-->
+<!--                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring,-->
+<!--                        Australian-->
+<!--                        arbiter-->
+<!--                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>-->
+<!--                    <p class="catalog__item-price">$52.00</p>-->
+<!--                </li>-->
+<!--                <li class="catalog__item">-->
+<!--                    <img class="catalog__img" src="img/product-6.jpg" alt="product-5">-->
+<!--                    <h3 class="catalog__item-title">ellery x m'o capsule</h3>-->
+<!--                    <p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring,-->
+<!--                        Australian-->
+<!--                        arbiter-->
+<!--                        of cool Kym Ellery teams <br> up with Moda Operandi.</p>-->
+<!--                    <p class="catalog__item-price">$52.00</p>-->
+<!--                </li>-->
             </ul>
             <div class="catalog__pagination">
                 <button class="catalog__prev arrow">
@@ -452,7 +509,7 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/carousel.js"></script>
+<script src="js/catalog.js"></script>
 
 </body>
 </html>
