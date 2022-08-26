@@ -20,21 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a87c4392-00c1-481b-b633-248af626463a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/catalog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_filter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_filter.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_font.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/catalog.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +114,8 @@
       <workItem from="1651750506366" duration="639000" />
       <workItem from="1652168562720" duration="1081000" />
       <workItem from="1652781381042" duration="334000" />
-      <workItem from="1661235794351" duration="3471000" />
+      <workItem from="1661235794351" duration="3840000" />
+      <workItem from="1661507752137" duration="2651000" />
     </task>
     <servers />
   </component>
