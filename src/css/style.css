@@ -555,8 +555,8 @@ a {
 .catalog__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
   margin: 0 0 48px 0;
 }
 @media (max-width: 768px) {

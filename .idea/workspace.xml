@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a87c4392-00c1-481b-b633-248af626463a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/js/cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/catalog.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,15 +66,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Project\Geekbrains\prof-layout\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Project\Geekbrains\prof-layout\src\js" />
       <recent name="C:\Project\Geekbrains\prof-layout\src\scss" />
       <recent name="C:\Project\Geekbrains\prof-layout\src" />
       <recent name="C:\Project\Geekbrains\prof-layout\scss" />
       <recent name="C:\Project\Geekbrains\prof-layout\css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Project\Geekbrains\prof-layout\src" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -115,7 +116,7 @@
       <workItem from="1652168562720" duration="1081000" />
       <workItem from="1652781381042" duration="334000" />
       <workItem from="1661235794351" duration="3840000" />
-      <workItem from="1661507752137" duration="2651000" />
+      <workItem from="1661507752137" duration="7808000" />
     </task>
     <servers />
   </component>
@@ -135,44 +136,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1650716160919">
+    <state x="740" y="271" key="FileChooserDialogImpl" timestamp="1661515468458">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.5.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1650716160919" />
-    <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1852.1200/1920.0.1920.1040@1920.0.1920.1040" timestamp="1648986815647" />
-    <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1853.1200/1920.0.1920.1040@1920.0.1920.1040" timestamp="1649511041617" />
-    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1652781708583">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="740" y="273" key="FileChooserDialogImpl/-1920.5.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1652781708583" />
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1853.1200/1920.0.1920.1040@1920.0.1920.1040" timestamp="1649509118147" />
-    <state x="2381" y="165" key="SettingsEditor" timestamp="1648808764234">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2381" y="165" key="SettingsEditor/0.0.1852.1200/1920.0.1920.1040@1920.0.1920.1040" timestamp="1648808764234" />
-    <state x="205" y="221" width="1652" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1648820717567">
-      <screen x="0" y="0" width="1852" height="1200" />
-    </state>
-    <state x="205" y="221" width="1652" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1852.1200/1920.0.1920.1040@0.0.1852.1200" timestamp="1648820717567" />
-    <state x="737" y="552" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1651231948606">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="737" y="552" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.5.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1650562657361" />
-    <state x="737" y="552" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1651231948606" />
-    <state x="2587" y="229" width="585" height="582" key="find.popup" timestamp="1649063370516">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2587" y="229" width="585" height="582" key="find.popup/0.0.1852.1200/1920.0.1920.1040@1920.0.1920.1040" timestamp="1649063370516" />
-    <state x="616" y="238" key="run.anything.popup" timestamp="1651302592444">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="616" y="238" key="run.anything.popup/-1920.5.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1650793697001" />
-    <state x="2536" y="240" key="run.anything.popup/0.0.1852.1200/1920.0.1920.1040@1920.0.1920.1040" timestamp="1649074448407" />
-    <state x="2536" y="240" key="run.anything.popup/0.0.1853.1200/1920.0.1920.1040@1920.0.1920.1040" timestamp="1649588694593" />
-    <state x="616" y="238" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1651302592444" />
-    <state x="2543" y="225" key="search.everywhere.popup" timestamp="1648728576939">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2543" y="225" key="search.everywhere.popup/0.0.1852.1200/1920.0.1920.1040@1920.0.1920.1040" timestamp="1648728576939" />
+    <state x="740" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1661515468458" />
   </component>
 </project>
