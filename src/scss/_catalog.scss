@@ -22,6 +22,10 @@
     margin: 0 auto;
   }
 
+  &__img {
+    max-height: 420px;
+  }
+
   &__title {
     margin: 0 0 6px 0;
     @include font(30px, 36px, 400);
