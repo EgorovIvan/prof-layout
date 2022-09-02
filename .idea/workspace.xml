@@ -20,15 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a87c4392-00c1-481b-b633-248af626463a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/registration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/catalog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_catalog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_shop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_shop.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_effects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_effects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_reg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_reg.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,15 +74,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Project\Geekbrains\prof-layout\src\js" />
-      <recent name="C:\Project\Geekbrains\prof-layout\src\scss" />
-      <recent name="C:\Project\Geekbrains\prof-layout\src" />
-      <recent name="C:\Project\Geekbrains\prof-layout\scss" />
-      <recent name="C:\Project\Geekbrains\prof-layout\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Project\Geekbrains\prof-layout\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\Geekbrains\prof-layout\src\js" />
+      <recent name="C:\Project\Geekbrains\prof-layout\src" />
+      <recent name="C:\Project\Geekbrains\prof-layout\src\scss" />
+      <recent name="C:\Project\Geekbrains\prof-layout\scss" />
+      <recent name="C:\Project\Geekbrains\prof-layout\css" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -124,7 +127,10 @@
       <workItem from="1661507752137" duration="7808000" />
       <workItem from="1661774992013" duration="6523000" />
       <workItem from="1661794111094" duration="7139000" />
-      <workItem from="1661828251691" duration="42356000" />
+      <workItem from="1661828251691" duration="42952000" />
+      <workItem from="1661929669621" duration="663000" />
+      <workItem from="1661967762028" duration="28346000" />
+      <workItem from="1662061689026" duration="19429000" />
     </task>
     <servers />
   </component>

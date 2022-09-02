@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>task</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta property="og:title" content="">
+	<meta property="og:type" content="">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body style="margin: 50px;">
+<h2 class="text" style="white-space: pre-wrap;">
+	'One: 'Hi Mary.' Two: 'Oh, hi.'
+	One: 'How are you doing?'
+	Two: 'I'm doing alright. How about you?'
+	One: 'Not too bad. The weather is great isn't it?'
+	Two: 'Yes. It's absolutely beautiful today.'
+	One: 'I wish it was like this more frequently.'
+	Two: 'Me too.'
+	One: 'So where are you going now?'
+	Two: 'I'm going to meet a friend of mine at the department store.'
+	One: 'Going to do a little shopping?'
+	Two: 'Yeah, I have to buy some presents for my parents.'
+	One: 'What's the occasion?'
+	Two: 'It's their anniversary.'
+	One: 'That's great. Well, you better get going. You don't want to be late.'
+	Two: 'I'll see you next time.'
+	One: 'Sure. Bye.'
+</h2>
+<div style="padding-top: 20px">
+	<button id="one">Двойные кавычки</button>
+	<button id="two">Одинарные кавычки</button>
+</div>
+<div style="padding-top: 20px">
+	<button id="change">change</button>
+	<button id="back">back</button>
+</div>
+
+<script>
+	document.getElementById('one').addEventListener("click", () => {
+        const regexp = /'/g;
+        const text = document.querySelector('.text').innerHTML
+        document.querySelector('.text').innerHTML = text.replace(regexp, '"')
+	})
+    document.getElementById('two').addEventListener("click", () => {
+        const regexp = /"/g;
+        const text = document.querySelector('.text').innerHTML
+        document.querySelector('.text').innerHTML = text.replace(regexp, "'")
+    })
+    document.getElementById('change').addEventListener("click", () => {
+        const regexp =  /^'|(\s)'|'(\s)|'$/gm;
+        const text = document.querySelector('.text').textContent
+        document.querySelector('.text').innerHTML = text.replace(regexp, '$1"$2')
+    })
+    document.getElementById('back').addEventListener("click", () => {
+        const regexp = /^"|(\s)"|"(\s)|"$/gm;
+        const text = document.querySelector('.text').textContent
+        document.querySelector('.text').textContent = text.replace(regexp, "$1'$2")
+    })
+</script>
+
+</body>
+</html>

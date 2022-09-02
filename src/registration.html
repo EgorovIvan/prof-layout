@@ -13,7 +13,7 @@
 	<meta property="og:image" content="">
 
 	<link rel="stylesheet" href="css/style.css">
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -205,9 +205,12 @@
 			<h2 class="visually-hidden">registration form</h2>
 			<form class="reg__form" action="#">
 				<fieldset>
-					<label class="reg__form-title" for="text">Your Name</label><br>
-					<input class="reg__form-input" type="text" id="text" required placeholder="First Name">
-					<input class="reg__form-input" type="text" required placeholder="Last Name"><br>
+					<label class="reg__form-title" for="name">Your Name</label><br>
+					<div style="height: 20px;"></div>
+					<input class="reg__form-input" type="text" id="name" required placeholder="First Name">
+					<p class="reg__form-text invisible-text">Пожалуйста, введите корректное имя (только буквы)</p>
+					<input class="reg__form-input" type="text" id="lastName" required placeholder="Last Name"><br>
+					<p class="reg__form-text invisible-text">Пожалуйста, введите корректную фамилию (только буквы)</p>
 					<div class="reg__form-checked">
 						<input type="radio" id="genderMale" name="gender" value="male">
 						<label for="genderMale">Male</label>
@@ -219,10 +222,14 @@
 				</fieldset>
 				<fieldset>
 					<label class="reg__form-title" for="email">Login details</label><br>
+					<div style="height: 20px;"></div>
 					<input class="reg__form-input" type="email" id="email" required placeholder="Email">
+					<p class="reg__form-text invisible-text">Пожалуйста, введите корректный email-адрес</p>
+					<input class="reg__form-input" type="phone" id="phone" required placeholder="Phone">
+					<p class="reg__form-text invisible-text">Пожалуйста, введите номер телефона в формате: +7(xxx)xxx-xxxx</p>
 					<input class="reg__form-input" type="password" id="password" required placeholder="Password">
 				</fieldset>
-				<p class="reg__form-text">Please use 8 or more characters, with at least 1 number and
+				<p class="reg__form-text-password" >Please use 8 or more characters, with at least 1 number and
 					a mixture of uppercase and lowercase letters</p>
 				<button class="reg__form-btn btn">
 					join now &nbsp;&nbsp;
@@ -326,6 +333,6 @@
 	</div>
 </footer>
 
-
+<script src="js/registration.js"></script>
 </body>
 </html>

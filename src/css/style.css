@@ -166,9 +166,9 @@ a {
 .header__search {
   display: flex;
   align-items: center;
-  width: 0;
+  width: 300px;
   height: 55px;
-  border: 1px solid #222222;
+  border: 1px solid #F16D7F;
   border-radius: 25px;
   background-color: #ffffff;
   transition: width 5s;
@@ -1155,6 +1155,14 @@ a {
   fill: #ffffff;
 }
 
+.invisible {
+  display: none;
+}
+
+.invisible-text {
+  visibility: hidden;
+}
+
 .page-name {
   width: 1600px;
   margin: 0 auto;
@@ -1265,7 +1273,7 @@ a {
   color: #222222;
 }
 .reg__form-input {
-  margin: 21px 0 0 0;
+  margin: 5px 0 0 0;
   padding: 0 0 0 17px;
   width: 360px;
   height: 44px;
@@ -1286,11 +1294,21 @@ a {
   color: #B1B1B1;
 }
 .reg__form-checked {
-  margin: 31px 0 33px 0;
+  margin: 8px 0 33px 0;
 }
 .reg__form-text {
   width: 360px;
-  margin: 16px 0 0 0;
+  min-height: 20px;
+  margin: 2px 0 0 0;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 300;
+  font-style: normal;
+  color: red;
+}
+.reg__form-text-password {
+  width: 360px;
+  margin: 2px 0 0 0;
   font-size: 13px;
   line-height: 16px;
   font-weight: 300;
@@ -1523,6 +1541,14 @@ a {
 .arrow:active .btn-prev,
 .arrow:active .btn-next {
   fill: #ffffff;
+}
+
+.invisible {
+  display: none;
+}
+
+.invisible-text {
+  visibility: hidden;
 }
 
 .shop {

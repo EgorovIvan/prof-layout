@@ -9,6 +9,7 @@ $(document).ready(function () {
             this.container = container;
             this.products = [];
             this.newProducts = [];
+            this.filtered = [];
             this._fetchProducts();
             this.newRender();
             this._getProducts()
@@ -89,6 +90,19 @@ $(document).ready(function () {
             }
         }
 
+        filter(value) {
+            let regexp = new RegExp(value, 'i');
+            this.filtered = this.newProducts.filter(item => regexp.test(item.product_name));
+            this.newProducts.forEach(item => {
+                const product = document.getElementById(`product-${item.id_product}`);
+                if (!this.filtered.includes(item) ) {
+                    product.classList.add('invisible');
+                } else if (product.classList.contains('invisible')) {
+                        product.classList.remove('invisible');
+                }
+            });
+        }
+
         render() {
             const block = document.querySelector(this.container);
             for (let product of this.products) {
@@ -108,9 +122,14 @@ $(document).ready(function () {
                 // Обработчик события добавления продукта в корзину
                 addBtn.addEventListener('click', () => {
                     this.addToBasket(NewProductItem.id);
-                    // console.log(NewProductItem.id)
                 })
             }
+
+            // Обработчик события поиска товара в каталоге
+            document.getElementById('search').addEventListener('submit', e => {
+                e.preventDefault();
+                this.filter(document.getElementById('search-input').value);
+            })
         }
 
         totalPrice() {
@@ -147,7 +166,7 @@ $(document).ready(function () {
         }
 
         render() {
-            return `<li class="catalog__item">
+            return `<li id="product-${this.id}" class="catalog__item">
                     <img class="catalog__img" src=${this.img} alt="product-3">
                     <h3 class="catalog__item-title">${this.title}</h3>
                     <p class="catalog__item-price">$${this.price}</p>
