@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
     //Обработчик события ввода данных в форму регистрации
-
     document.querySelector('.reg__form').addEventListener('submit', (e) => {
         e.preventDefault();
         let name = document.getElementById('name');
@@ -23,13 +22,6 @@ $(document).ready(function () {
         const password = document.getElementById('password');
         const regexp5 = /(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}/;
         let isCorrectPassword = regexp5.test(password.value);
-
-        console.log(isCorrectName)
-        console.log(isCorrectLastName)
-        console.log(isCorrectEmail)
-        console.log(isCorrectPhone)
-        console.log(isCorrectPassword)
-        console.log('---')
 
         const textValid = document.querySelectorAll('.reg__form-text');
         const textPasswordValid = document.querySelector('.reg__form-text-password');
