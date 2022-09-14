@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<img class="shop-cart__img" :src="img" alt="cart1">
+		<img class="shop-cart__img" :src="product.img" alt="cart1">
 		<div class="shop-cart__info">
 			<h2 class="shop-cart__title">{{product.product_name}}</h2>
 			<p class="shop-cart__text">Price: <span
@@ -8,15 +8,15 @@
 			<p class="shop-cart__text">Color: Red</p>
 			<p class="shop-cart__text">Size: Xl </p>
 			<p class="shop-cart__text">Quantity:
-<!--							<input class="shop-cart__input" type="text" v-model="product.quantity"/>-->
-							<button v-on:click="$root.removeCount(product.id_product)" class="shop-cart__count">
+							<input class="shop-cart__input" type="text" :value="product.quantity"/>
+							<button v-on:click="$parent.$emit('removeCount', product)" class="shop-cart__count">
 								<img src="../img/minus.png"/>
 							</button>
-							<button v-on:click="$root.addCount(product.id_product)" class="shop-cart__count">
+							<button v-on:click="$parent.$emit('addCount', product)" class="shop-cart__count">
 								<img src="../img/plus.png"/>
 							</button>
 			</p>
-			<button v-on:click="$root.deleteItem(product.id_product)" class="shop-cart__btn-close btn-close" type="button">
+			<button v-on:click="$parent.$emit('deleteItem', product)" class="shop-cart__btn-close btn-close" type="button">
 				<svg class="icon-close" width="18" height="18" viewBox="0 0 13 13">
 					<path d="M7.4158 6.00409L11.7158 1.71409C11.9041 1.52579 12.0099 1.27039 12.0099
 										1.00409C12.0099

@@ -1,22 +1,22 @@
 <template>
-  <header class="header">
-    <div class="container header__wrp">
-      <div class="header__list">
-        <img class="header__logo" src="../img/logo.svg" alt="logo">
-        <SearchComponent/>
-      </div>
-      <ul class="header__list">
-        <li class="header__item">
-          <button id="open-btn" class="header__button btn-icon">
-            <svg class="icon" width="32" height="23" viewBox="0 0 32 23">
-              <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z"/>
-            </svg>
-          </button>
-        </li>
-        <li class="header__item">
-          <a href="#" class="header__link link-icon">
-            <svg class="icon" width="29" height="29" viewBox="0 0 29 29">
-              <path d="M14.5 19.937C19 19.937 22.656 15.464 22.656 9.968C22.656 4.472 19 0 14.5 0C13.3631
+	<header class="header">
+		<div class="container header__wrp">
+			<div class="header__list">
+				<img class="header__logo" src="../img/logo.svg" alt="logo">
+				<SearchComponent/>
+			</div>
+			<ul class="header__list">
+				<li class="header__item">
+					<button id="open-btn" class="header__button btn-icon">
+						<svg class="icon" width="32" height="23" viewBox="0 0 32 23">
+							<path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z"/>
+						</svg>
+					</button>
+				</li>
+				<li class="header__item">
+					<a href="#" class="header__link link-icon">
+						<svg class="icon" width="29" height="29" viewBox="0 0 29 29">
+							<path d="M14.5 19.937C19 19.937 22.656 15.464 22.656 9.968C22.656 4.472 19 0 14.5 0C13.3631
 						0.0217413 12.2463 0.303398 11.2351 0.823397C10.2239 1.34339 9.34507 2.08794 8.66602 3C7.12663
 						4.99573 6.30819 7.45381 6.34399 9.974C6.34399 15.465 10 19.937 14.5 19.937ZM14.5 1.813C18 1.813
 						20.844 5.472 20.844 9.969C20.844 14.466 17.998 18.125 14.5 18.125C11.002 18.125 8.15603 14.465
@@ -33,15 +33,15 @@
 						0.287502 27.693 0.797241 28.2027C1.30698 28.7125 1.99811 28.9992 2.71899 29H26.282C27.0027
 						28.9989 27.6936 28.7121 28.2031 28.2024C28.7126 27.6927 28.9992 27.0017 29 26.281C28.9974
 						24.1187 28.1372 22.0457 26.6083 20.5168C25.0793 18.9878 23.0063 18.1276 20.844 18.125Z"
-              />
-            </svg>
-          </a>
-        </li>
-        <li class="header__item">
-          <div class="header__link link-icon">
-            <router-link to="/shopping-cart">
-              <svg class="icon" width="32" height="29" viewBox="0 0 32 29" fill="none">
-                <path d="M26.2009 29C25.5532 28.9738 24.9415 28.6948 24.4972 28.2227C24.0529 27.7506 23.8114
+							/>
+						</svg>
+					</a>
+				</li>
+				<li class="header__item">
+					<div class="header__link link-icon">
+						<router-link to="/shopping-cart">
+							<svg class="icon" width="32" height="29" viewBox="0 0 32 29" fill="none">
+								<path d="M26.2009 29C25.5532 28.9738 24.9415 28.6948 24.4972 28.2227C24.0529 27.7506 23.8114
 						27.1232 23.8245 26.475C23.8376 25.8269 24.1043 25.2097 24.5673 24.7559C25.0303 24.3022 25.6527
 						24.048 26.301 24.048C26.9493 24.048 27.5717 24.3022 28.0347 24.7559C28.4977 25.2097 28.7644
 						25.8269 28.7775 26.475C28.7906 27.1232 28.549 27.7506 28.1047 28.2227C27.6604 28.6948 27.0488
@@ -65,16 +65,16 @@
 						31.7999 6.44301C31.9078 6.60729 31.9734 6.79569 31.9908 6.99145C32.0083 7.18721 31.9771
 						7.38424 31.9 7.565L26.495 19.977C26.4026 20.1876 26.251 20.3668 26.0585 20.4927C25.866 20.6186
 						25.641 20.6858 25.411 20.686H10.553Z"/>
-              </svg>
-            </router-link>
-          </div>
-        </li>
-      </ul>
-      
-      <nav id="menu" class="header__nav">
-        <button id="close-btn" class="header__btn-close btn-close" type="button">
-          <svg class="icon-close" width="13" height="13" viewBox="0 0 13 13">
-            <path d="M7.4158 6.00409L11.7158 1.71409C11.9041 1.52579 12.0099 1.27039 12.0099 1.00409C12.0099
+							</svg>
+						</router-link>
+					</div>
+				</li>
+			</ul>
+			
+			<nav id="menu" class="header__nav">
+				<button id="close-btn" class="header__btn-close btn-close" type="button">
+					<svg class="icon-close" width="13" height="13" viewBox="0 0 13 13">
+						<path d="M7.4158 6.00409L11.7158 1.71409C11.9041 1.52579 12.0099 1.27039 12.0099 1.00409C12.0099
 					0.73779 11.9041 0.482395 11.7158 0.294092C11.5275 0.105788 11.2721 0 11.0058 0C10.7395 0 10.4841
 					0.105788 10.2958 0.294092L6.0058 4.59409L1.7158 0.294092C1.52749 0.105788 1.2721 -1.9841e-09 1.0058
 					0C0.739497 1.9841e-09 0.484102 0.105788 0.295798 0.294092C0.107495 0.482395 0.0017066 0.73779
@@ -88,295 +88,295 @@
 					11.8822 11.6228 11.8078 11.7158 11.7141C11.8095 11.6211 11.8839 11.5105 11.9347 11.3887C11.9855
 					11.2668 12.0116 11.1361 12.0116 11.0041C12.0116 10.8721 11.9855 10.7414 11.9347 10.6195C11.8839
 					10.4977 11.8095 10.3871 11.7158 10.2941L7.4158 6.00409Z"/>
-          </svg>
-        </button>
-        
-        <h2 class="header__title">menu</h2>
-        <ul class="header__nav-list">
-          <li class="header__nav-item nav-sub-item">
-            <a href="#" class="nav-sub-item__title link">man</a>
-            <ul class="nav-sub-item__list">
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">Accessories</a>
-              </li>
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">Bags</a>
-              </li>
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">Denim</a>
-              </li>
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">T-Shirts</a>
-              </li>
-            </ul>
-          </li>
-          <li class="header__nav-item nav-sub-item">
-            <a href="#" class="nav-sub-item__title link">woman</a>
-            <ul class="nav-sub-item__list">
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">Accessories</a>
-              </li>
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">Jackets & Coats</a>
-              </li>
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">Polos</a>
-              </li>
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">T-Shirts</a>
-              </li>
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">Shirts</a>
-              </li>
-            </ul>
-          </li>
-          <li class="header__nav-item nav-sub-item">
-            <a href="#" class="nav-sub-item__title link">kids</a>
-            <ul class="nav-sub-item__list">
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">Accessories</a>
-              </li>
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">Jackets & Coats</a>
-              </li>
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">Polos</a>
-              </li>
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">T-Shirts</a>
-              </li>
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">Shirts</a>
-              </li>
-              <li class="nav-sub-item__item">
-                <a href="#" class="nav-sub-item__link link">T-Bags</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section class="page-name">
-      <div class="container page-name__wrp">
-        <h2 class="page-name__title">new arrivals</h2>
-        <p class="page-name__breadcrumbs">home / men /
-          <span class="page-name__breadcrumbs-active">new arrivals</span>
-        </p>
-      </div>
-    </section>
-    <section class="filter">
-      <div class="container filter__wrp">
-        <div class="filter__btn-menu">
-          <h2 class="filter__title open-filter">Filter</h2>
-          <button class="filter__burger open-filter">
-            <svg width="15" height="10" viewBox="0 0 15 10">
-              <path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667
+					</svg>
+				</button>
+				
+				<h2 class="header__title">menu</h2>
+				<ul class="header__nav-list">
+					<li class="header__nav-item nav-sub-item">
+						<a href="#" class="nav-sub-item__title link">man</a>
+						<ul class="nav-sub-item__list">
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">Accessories</a>
+							</li>
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">Bags</a>
+							</li>
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">Denim</a>
+							</li>
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">T-Shirts</a>
+							</li>
+						</ul>
+					</li>
+					<li class="header__nav-item nav-sub-item">
+						<a href="#" class="nav-sub-item__title link">woman</a>
+						<ul class="nav-sub-item__list">
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">Accessories</a>
+							</li>
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">Jackets & Coats</a>
+							</li>
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">Polos</a>
+							</li>
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">T-Shirts</a>
+							</li>
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">Shirts</a>
+							</li>
+						</ul>
+					</li>
+					<li class="header__nav-item nav-sub-item">
+						<a href="#" class="nav-sub-item__title link">kids</a>
+						<ul class="nav-sub-item__list">
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">Accessories</a>
+							</li>
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">Jackets & Coats</a>
+							</li>
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">Polos</a>
+							</li>
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">T-Shirts</a>
+							</li>
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">Shirts</a>
+							</li>
+							<li class="nav-sub-item__item">
+								<a href="#" class="nav-sub-item__link link">T-Bags</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="page-name">
+			<div class="container page-name__wrp">
+				<h2 class="page-name__title">new arrivals</h2>
+				<p class="page-name__breadcrumbs">home / men /
+					<span class="page-name__breadcrumbs-active">new arrivals</span>
+				</p>
+			</div>
+		</section>
+		<section class="filter">
+			<div class="container filter__wrp">
+				<div class="filter__btn-menu">
+					<h2 class="filter__title open-filter">Filter</h2>
+					<button class="filter__burger open-filter">
+						<svg width="15" height="10" viewBox="0 0 15 10">
+							<path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667
                     8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167
                     0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667
                     0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10
                     4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333
                     0.833333 5.83333Z"/>
-            </svg>
-          </button>
-        </div>
-        <div class="filter__menu">
-          <div class="filter__btn-menu">
-            <h2 class="filter__title color-active close-filter">Filter</h2>
-            <button class="filter__burger color-active close-filter">
-              <svg width="15" height="10" viewBox="0 0 15 10">
-                <path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667
+						</svg>
+					</button>
+				</div>
+				<div class="filter__menu">
+					<div class="filter__btn-menu">
+						<h2 class="filter__title color-active close-filter">Filter</h2>
+						<button class="filter__burger color-active close-filter">
+							<svg width="15" height="10" viewBox="0 0 15 10">
+								<path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667
                         8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167
                         0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667
                         0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10
                         4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333
                         0.833333 5.83333Z"/>
-              </svg>
-            </button>
-          </div>
-          <ul class="filter__menu-list">
-            <li class="filter__menu-item">
-              <h2 class="filter__menu-title">
-                <img class="filter__menu-img" src="../img/pillar.png" alt="pillar"> category
-              </h2>
-              <hr class="filter__hr-title">
-              <ul class="filter__submenu-list">
-                <li class="filter__submenu-item">Accessories</li>
-                <li class="filter__submenu-item">Bags</li>
-                <li class="filter__submenu-item">Denim</li>
-                <li class="filter__submenu-item">Hoodies & Sweatshirts</li>
-                <li class="filter__submenu-item">Jackets & Coats</li>
-                <li class="filter__submenu-item">Polos</li>
-                <li class="filter__submenu-item">Shirts</li>
-                <li class="filter__submenu-item">Shoes</li>
-                <li class="filter__submenu-item">Sweaters & Knits</li>
-                <li class="filter__submenu-item">T-Shirts</li>
-                <li class="filter__submenu-item">Tanks</li>
-              </ul>
-            </li>
-            <li class="filter__menu-item">
-              <h2 class="filter__menu-title">
-                <img class="filter__menu-img" src="../img/pillar.png" alt="pillar">brand
-              </h2>
-              <hr class="filter__hr-title">
-            </li>
-            <li class="filter__menu-item">
-              <h2 class="filter__menu-title">
-                <img class="filter__menu-img" src="../img/pillar.png" alt="pillar">designer
-              </h2>
-              <hr class="filter__hr-title">
-            </li>
-          </ul>
-        </div>
-        
-        <div class="filter__select-list">
-          <select class="filter__select btn" aria-label="Default select example">
-            <option selected>trending now</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-          </select>
-          <select class="filter__select" aria-label="Default select example">
-            <option selected>size</option>
-            <option value="xs">xs</option>
-            <option value="s">s</option>
-            <option value="m">m</option>
-            <option value="l">l</option>
-          </select>
-          <select class="filter__select btn" aria-label="Default select example">
-            <option selected>price</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-          </select>
-        </div>
-      </div>
-    </section>
-    
-    <section class="catalog">
-      <div class="container catalog__wrp">
-        <h2 class="visually-hidden">sales</h2>
-        <CatalogProducts :products="$root.filtered" :img="$root.img" v-on:add-product="$root.addProduct"/>
-        <div class="catalog__pagination">
-          <button class="catalog__prev arrow">
-            <svg class="btn-prev" width="8" height="14" viewBox="0 0 13 23">
-              <path d="M12.6998 3.7499L4.9498 11.4999L12.6998 19.2499L11.1498 22.3499L0.299805 11.4999L11.1498
+							</svg>
+						</button>
+					</div>
+					<ul class="filter__menu-list">
+						<li class="filter__menu-item">
+							<h2 class="filter__menu-title">
+								<img class="filter__menu-img" src="../img/pillar.png" alt="pillar"> category
+							</h2>
+							<hr class="filter__hr-title">
+							<ul class="filter__submenu-list">
+								<li class="filter__submenu-item">Accessories</li>
+								<li class="filter__submenu-item">Bags</li>
+								<li class="filter__submenu-item">Denim</li>
+								<li class="filter__submenu-item">Hoodies & Sweatshirts</li>
+								<li class="filter__submenu-item">Jackets & Coats</li>
+								<li class="filter__submenu-item">Polos</li>
+								<li class="filter__submenu-item">Shirts</li>
+								<li class="filter__submenu-item">Shoes</li>
+								<li class="filter__submenu-item">Sweaters & Knits</li>
+								<li class="filter__submenu-item">T-Shirts</li>
+								<li class="filter__submenu-item">Tanks</li>
+							</ul>
+						</li>
+						<li class="filter__menu-item">
+							<h2 class="filter__menu-title">
+								<img class="filter__menu-img" src="../img/pillar.png" alt="pillar">brand
+							</h2>
+							<hr class="filter__hr-title">
+						</li>
+						<li class="filter__menu-item">
+							<h2 class="filter__menu-title">
+								<img class="filter__menu-img" src="../img/pillar.png" alt="pillar">designer
+							</h2>
+							<hr class="filter__hr-title">
+						</li>
+					</ul>
+				</div>
+				
+				<div class="filter__select-list">
+					<select class="filter__select btn" aria-label="Default select example">
+						<option selected>trending now</option>
+						<option value="1">One</option>
+						<option value="2">Two</option>
+						<option value="3">Three</option>
+					</select>
+					<select class="filter__select" aria-label="Default select example">
+						<option selected>size</option>
+						<option value="xs">xs</option>
+						<option value="s">s</option>
+						<option value="m">m</option>
+						<option value="l">l</option>
+					</select>
+					<select class="filter__select btn" aria-label="Default select example">
+						<option selected>price</option>
+						<option value="1">One</option>
+						<option value="2">Two</option>
+						<option value="3">Three</option>
+					</select>
+				</div>
+			</div>
+		</section>
+		
+		<section class="catalog">
+			<div class="container catalog__wrp">
+				<h2 class="visually-hidden">sales</h2>
+				<CatalogProducts :products="filtered" v-on:add-product="addProduct"/>
+				<div class="catalog__pagination">
+					<button class="catalog__prev arrow">
+						<svg class="btn-prev" width="8" height="14" viewBox="0 0 13 23">
+							<path d="M12.6998 3.7499L4.9498 11.4999L12.6998 19.2499L11.1498 22.3499L0.299805 11.4999L11.1498
                 0.649902L12.6998 3.7499Z"/>
-            </svg>
-          </button>
-          <a class="catalog__pagination-number" href="#">1</a>
-          <a class="catalog__pagination-number" href="#">2</a>
-          <a class="catalog__pagination-number" href="#">3</a>
-          <a class="catalog__pagination-number" href="#">4</a>
-          <a class="catalog__pagination-number" href="#">5</a>
-          <a class="catalog__pagination-number" href="#">6.....20</a>
-          <button class="catalog__next arrow">
-            <svg class="btn-next" width="8" height="14" viewBox="0 0 13 23">
-              <path d="M0.299805 19.2499L8.0498 11.4999L0.299805 3.7499L1.8498 0.649902L12.6998 11.4999L1.8498
+						</svg>
+					</button>
+					<a class="catalog__pagination-number" href="#">1</a>
+					<a class="catalog__pagination-number" href="#">2</a>
+					<a class="catalog__pagination-number" href="#">3</a>
+					<a class="catalog__pagination-number" href="#">4</a>
+					<a class="catalog__pagination-number" href="#">5</a>
+					<a class="catalog__pagination-number" href="#">6.....20</a>
+					<button class="catalog__next arrow">
+						<svg class="btn-next" width="8" height="14" viewBox="0 0 13 23">
+							<path d="M0.299805 19.2499L8.0498 11.4999L0.299805 3.7499L1.8498 0.649902L12.6998 11.4999L1.8498
                 22.3499L0.299805 19.2499Z"/>
-            </svg>
-          </button>
-        </div>
-      </div>
-    </section>
-    <div class="info">
-      <div class="container">
-        <ul class="info__list">
-          <li class="info__item">
-            <img class="info__img" src="img/delivery.svg" alt="delivery">
-            <h3 class="info__title">Free Delivery</h3>
-            <p class="info__text">Worldwide delivery on all.
-              Authorit tively morph <br> next-generation innov tion with extensive models.</p>
-          </li>
-          <li class="info__item">
-            <img class="info__img" src="img/sales-discounts.svg" alt="sales-discounts">
-            <h3 class="info__title">Sales & discounts</h3>
-            <p class="info__text">Worldwide delivery on all.
-              Authorit tively morph <br> next-generation innov tion with extensive models.</p>
-          </li>
-          <li class="info__item">
-            <img class="info__img" src="img/assurance.svg" alt="assurance">
-            <h3 class="info__title">Quality assurance</h3>
-            <p class="info__text">Worldwide delivery on all.
-              Authorit tively morph <br> next-generation innov tion with extensive models.</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </main>
-  
-  <footer>
-    <div class="subscribe">
-      <div class="container subscribe__wrp">
-        <div class="subscribe__info">
-          <img class="subscribe__img" src="../img/manager.png" alt="manager">
-          <p class="subscribe__text">“Vestibulum quis porttitor dui! Quisque
-            viverra nunc mi, <em>a pulvinar purus condimentum“</em></p>
-        </div>
-        <div class="subscribe__form">
-          <h3 class="subscribe__title">subscribe</h3>
-          <span class="subscribe__subtitle">
+						</svg>
+					</button>
+				</div>
+			</div>
+		</section>
+		<div class="info">
+			<div class="container">
+				<ul class="info__list">
+					<li class="info__item">
+						<img class="info__img" src="img/delivery.svg" alt="delivery">
+						<h3 class="info__title">Free Delivery</h3>
+						<p class="info__text">Worldwide delivery on all.
+							Authorit tively morph <br> next-generation innov tion with extensive models.</p>
+					</li>
+					<li class="info__item">
+						<img class="info__img" src="img/sales-discounts.svg" alt="sales-discounts">
+						<h3 class="info__title">Sales & discounts</h3>
+						<p class="info__text">Worldwide delivery on all.
+							Authorit tively morph <br> next-generation innov tion with extensive models.</p>
+					</li>
+					<li class="info__item">
+						<img class="info__img" src="img/assurance.svg" alt="assurance">
+						<h3 class="info__title">Quality assurance</h3>
+						<p class="info__text">Worldwide delivery on all.
+							Authorit tively morph <br> next-generation innov tion with extensive models.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+	
+	<footer>
+		<div class="subscribe">
+			<div class="container subscribe__wrp">
+				<div class="subscribe__info">
+					<img class="subscribe__img" src="../img/manager.png" alt="manager">
+					<p class="subscribe__text">“Vestibulum quis porttitor dui! Quisque
+						viverra nunc mi, <em>a pulvinar purus condimentum“</em></p>
+				</div>
+				<div class="subscribe__form">
+					<h3 class="subscribe__title">subscribe</h3>
+					<span class="subscribe__subtitle">
 						for our newletter and promotion</span>
-          <form action="#">
-            <input class="subscribe__input" type="text" placeholder="Enter Your Email">
-            <button class="subscribe__btn btn" type="submit">Subscribe</button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <div class="social">
-      <div class="container social__wrp">
-        <p class="social__text">© 2021 Brand All Rights Reserved.</p>
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link link-icon" href="#">
-              <svg width="32" height="32" viewBox="0 0 32 32">
-                <path class="icon-el1" d="M31.4506 0H0V32H31.4506V0Z"/>
-                <path class="icon-el2" d="M19.0884 16.28L19.5069 13.616H16.8902V11.8873C16.8902
+					<form action="#">
+						<input class="subscribe__input" type="text" placeholder="Enter Your Email">
+						<button class="subscribe__btn btn" type="submit">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="social">
+			<div class="container social__wrp">
+				<p class="social__text">© 2021 Brand All Rights Reserved.</p>
+				<ul class="social__list">
+					<li class="social__item">
+						<a class="social__link link-icon" href="#">
+							<svg width="32" height="32" viewBox="0 0 32 32">
+								<path class="icon-el1" d="M31.4506 0H0V32H31.4506V0Z"/>
+								<path class="icon-el2" d="M19.0884 16.28L19.5069 13.616H16.8902V11.8873C16.8902
 									11.1585 17.2557 10.4481 18.4277 10.4481H19.6172V8.17997C19.6172 8.17997 18.5377
 									8 17.5056 8C15.3507 8 13.9422 9.27593 13.9422
 									11.5857V13.616H11.5469V16.28H13.9422V22.72H16.8902V16.28H19.0884Z"/>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link link-icon" href="#">
-              <svg width="33" height="32" viewBox="0 0 33 32" fill="none">
-                <path class="icon-el1" d="M32.1889 0H0.738281V32H32.1889V0Z"/>
-                <g class="icon-el2" clip-path="url(#clip0_128_232)">
-                  <path d="M16.139 12.6816C14.0238 12.6816 12.3177 14.3849 12.3177 16.4966C12.3177 18.6083 14.0238 20.3117 16.139 20.3117C18.2541 20.3117 19.9602 18.6083 19.9602 16.4966C19.9602 14.3849 18.2541 12.6816 16.139 12.6816ZM16.139 18.9769C14.7721 18.9769 13.6547 17.8646 13.6547 16.4966C13.6547 15.1287 14.7688 14.0164 16.139 14.0164C17.5092 14.0164 18.6233 15.1287 18.6233 16.4966C18.6233 17.8646 17.5058 18.9769 16.139 18.9769ZM21.0078 12.5255C21.0078 13.0203 20.6087 13.4154 20.1165 13.4154C19.621 13.4154 19.2252 13.0169 19.2252 12.5255C19.2252 12.0341 19.6243 11.6357 20.1165 11.6357C20.6087 11.6357 21.0078 12.0341 21.0078 12.5255ZM23.5386 13.4287C23.4821 12.2367 23.2094 11.1808 22.3347 10.3109C21.4634 9.44097 20.4058 9.1687 19.2119 9.10894C17.9814 9.03921 14.2932 9.03921 13.0627 9.10894C11.8721 9.16538 10.8145 9.43765 9.93987 10.3076C9.06522 11.1775 8.79584 12.2333 8.73597 13.4253C8.66613 14.6539 8.66613 18.3361 8.73597 19.5646C8.79251 20.7566 9.06522 21.8124 9.93987 22.6824C10.8145 23.5523 11.8688 23.8246 13.0627 23.8843C14.2932 23.9541 17.9814 23.9541 19.2119 23.8843C20.4058 23.8279 21.4634 23.5556 22.3347 22.6824C23.2061 21.8124 23.4788 20.7566 23.5386 19.5646C23.6085 18.3361 23.6085 14.6572 23.5386 13.4287ZM21.949 20.8828C21.6895 21.5335 21.1874 22.0349 20.5322 22.2972C19.5511 22.6857 17.2231 22.596 16.139 22.596C15.0548 22.596 12.7235 22.6824 11.7457 22.2972C11.0939 22.0382 10.5917 21.5369 10.329 20.8828C9.93987 19.9033 10.0297 17.5791 10.0297 16.4966C10.0297 15.4142 9.9432 13.0867 10.329 12.1105C10.5884 11.4597 11.0906 10.9583 11.7457 10.696C12.7268 10.3076 15.0548 10.3972 16.139 10.3972C17.2231 10.3972 19.5545 10.3109 20.5322 10.696C21.184 10.955 21.6862 11.4564 21.949 12.1105C22.3381 13.09 22.2483 15.4142 22.2483 16.4966C22.2483 17.5791 22.3381 19.9066 21.949 20.8828Z"/>
-                </g>
-                <defs class="icon-el1">
-                  <clipPath id="clip0_128_232">
-                    <rect width="14.8991" height="17" transform="translate(8.68555 8)"/>
-                  </clipPath>
-                </defs>
-              </svg>
-            
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link link-icon" href="#">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                <path class="icon-el1" d="M31.9252 0H0.474609V32H31.9252V0Z"/>
-                <g class="icon-el2" clip-path="url(#clip0_24_237)">
-                  <path d="M16.7403 8.20312C13.5556 8.20312 10.4082 10.3406 10.4082 13.8C10.4082 16 11.6374 17.25 12.3823 17.25C12.6896 17.25 12.8666 16.3875 12.8666 16.1438C12.8666 15.8531 12.1309 15.2344 12.1309 14.025C12.1309 11.5125 14.0305 9.73125 16.4889 9.73125C18.6027 9.73125 20.1671 10.9406 20.1671 13.1625C20.1671 14.8219 19.506 17.9344 17.3642 17.9344C16.5913 17.9344 15.9302 17.3719 15.9302 16.5656C15.9302 15.3844 16.7496 14.2406 16.7496 13.0219C16.7496 10.9531 13.835 11.3281 13.835 13.8281C13.835 14.3531 13.9002 14.9344 14.133 15.4125C13.7046 17.2688 12.8293 20.0344 12.8293 21.9469C12.8293 22.5375 12.9131 23.1188 12.969 23.7094C13.0745 23.8281 13.0218 23.8156 13.1832 23.7563C14.7476 21.6 14.6917 21.1781 15.3994 18.3562C15.7812 19.0875 16.7683 19.4812 17.5505 19.4812C20.8469 19.4812 22.3275 16.2469 22.3275 13.3313C22.3275 10.2281 19.6643 8.20312 16.7403 8.20312Z"/>
-                </g>
-                <defs class="icon-el1">
-                  <clipPath id="clip0_24_237">
-                    <rect width="11.9193" height="16" transform="translate(10.4082 8)"/>
-                  </clipPath>
-                </defs>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link link-icon" href="#">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                <path class="icon-el1" d="M31.6635 0H0.212891V32H31.6635V0Z"/>
-                <g clip-path="url(#clip0_24_233)">
-                  <path class="icon-el2" d="M22.417 12.7405C22.427 12.8826 22.427 13.0248 22.427
+							</svg>
+						</a>
+					</li>
+					<li class="social__item">
+						<a class="social__link link-icon" href="#">
+							<svg width="33" height="32" viewBox="0 0 33 32" fill="none">
+								<path class="icon-el1" d="M32.1889 0H0.738281V32H32.1889V0Z"/>
+								<g class="icon-el2" clip-path="url(#clip0_128_232)">
+									<path d="M16.139 12.6816C14.0238 12.6816 12.3177 14.3849 12.3177 16.4966C12.3177 18.6083 14.0238 20.3117 16.139 20.3117C18.2541 20.3117 19.9602 18.6083 19.9602 16.4966C19.9602 14.3849 18.2541 12.6816 16.139 12.6816ZM16.139 18.9769C14.7721 18.9769 13.6547 17.8646 13.6547 16.4966C13.6547 15.1287 14.7688 14.0164 16.139 14.0164C17.5092 14.0164 18.6233 15.1287 18.6233 16.4966C18.6233 17.8646 17.5058 18.9769 16.139 18.9769ZM21.0078 12.5255C21.0078 13.0203 20.6087 13.4154 20.1165 13.4154C19.621 13.4154 19.2252 13.0169 19.2252 12.5255C19.2252 12.0341 19.6243 11.6357 20.1165 11.6357C20.6087 11.6357 21.0078 12.0341 21.0078 12.5255ZM23.5386 13.4287C23.4821 12.2367 23.2094 11.1808 22.3347 10.3109C21.4634 9.44097 20.4058 9.1687 19.2119 9.10894C17.9814 9.03921 14.2932 9.03921 13.0627 9.10894C11.8721 9.16538 10.8145 9.43765 9.93987 10.3076C9.06522 11.1775 8.79584 12.2333 8.73597 13.4253C8.66613 14.6539 8.66613 18.3361 8.73597 19.5646C8.79251 20.7566 9.06522 21.8124 9.93987 22.6824C10.8145 23.5523 11.8688 23.8246 13.0627 23.8843C14.2932 23.9541 17.9814 23.9541 19.2119 23.8843C20.4058 23.8279 21.4634 23.5556 22.3347 22.6824C23.2061 21.8124 23.4788 20.7566 23.5386 19.5646C23.6085 18.3361 23.6085 14.6572 23.5386 13.4287ZM21.949 20.8828C21.6895 21.5335 21.1874 22.0349 20.5322 22.2972C19.5511 22.6857 17.2231 22.596 16.139 22.596C15.0548 22.596 12.7235 22.6824 11.7457 22.2972C11.0939 22.0382 10.5917 21.5369 10.329 20.8828C9.93987 19.9033 10.0297 17.5791 10.0297 16.4966C10.0297 15.4142 9.9432 13.0867 10.329 12.1105C10.5884 11.4597 11.0906 10.9583 11.7457 10.696C12.7268 10.3076 15.0548 10.3972 16.139 10.3972C17.2231 10.3972 19.5545 10.3109 20.5322 10.696C21.184 10.955 21.6862 11.4564 21.949 12.1105C22.3381 13.09 22.2483 15.4142 22.2483 16.4966C22.2483 17.5791 22.3381 19.9066 21.949 20.8828Z"/>
+								</g>
+								<defs class="icon-el1">
+									<clipPath id="clip0_128_232">
+										<rect width="14.8991" height="17" transform="translate(8.68555 8)"/>
+									</clipPath>
+								</defs>
+							</svg>
+						
+						</a>
+					</li>
+					<li class="social__item">
+						<a class="social__link link-icon" href="#">
+							<svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+								<path class="icon-el1" d="M31.9252 0H0.474609V32H31.9252V0Z"/>
+								<g class="icon-el2" clip-path="url(#clip0_24_237)">
+									<path d="M16.7403 8.20312C13.5556 8.20312 10.4082 10.3406 10.4082 13.8C10.4082 16 11.6374 17.25 12.3823 17.25C12.6896 17.25 12.8666 16.3875 12.8666 16.1438C12.8666 15.8531 12.1309 15.2344 12.1309 14.025C12.1309 11.5125 14.0305 9.73125 16.4889 9.73125C18.6027 9.73125 20.1671 10.9406 20.1671 13.1625C20.1671 14.8219 19.506 17.9344 17.3642 17.9344C16.5913 17.9344 15.9302 17.3719 15.9302 16.5656C15.9302 15.3844 16.7496 14.2406 16.7496 13.0219C16.7496 10.9531 13.835 11.3281 13.835 13.8281C13.835 14.3531 13.9002 14.9344 14.133 15.4125C13.7046 17.2688 12.8293 20.0344 12.8293 21.9469C12.8293 22.5375 12.9131 23.1188 12.969 23.7094C13.0745 23.8281 13.0218 23.8156 13.1832 23.7563C14.7476 21.6 14.6917 21.1781 15.3994 18.3562C15.7812 19.0875 16.7683 19.4812 17.5505 19.4812C20.8469 19.4812 22.3275 16.2469 22.3275 13.3313C22.3275 10.2281 19.6643 8.20312 16.7403 8.20312Z"/>
+								</g>
+								<defs class="icon-el1">
+									<clipPath id="clip0_24_237">
+										<rect width="11.9193" height="16" transform="translate(10.4082 8)"/>
+									</clipPath>
+								</defs>
+							</svg>
+						</a>
+					</li>
+					<li class="social__item">
+						<a class="social__link link-icon" href="#">
+							<svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+								<path class="icon-el1" d="M31.6635 0H0.212891V32H31.6635V0Z"/>
+								<g clip-path="url(#clip0_24_233)">
+									<path class="icon-el2" d="M22.417 12.7405C22.427 12.8826 22.427 13.0248 22.427
 										13.1669C22.427 17.5019 19.1498 22.4969 13.1599 22.4969C11.3145 22.4969 9.60022
 										21.9588 8.1582 21.0248C8.4204 21.0552 8.67247 21.0654 8.94475 21.0654C10.4674
 										21.0654 11.8691 20.5476 12.9884 19.6644C11.5565 19.6339 10.3565 18.6898 9.94305
@@ -389,30 +389,79 @@
 										10.5375C22.2757 10.3954 22.9816 10.1212 23.6068 9.74561C23.3648 10.507 22.8505
 										11.1466 22.1749 11.5527C22.8304 11.4817 23.4657 11.2989 24.0505 11.0451C23.6069
 										11.6948 23.0522 12.2735 22.417 12.7405Z"/>
-                </g>
-                <defs class="icon-el1">
-                  <clipPath id="clip0_24_233">
-                    <rect width="15.8924" height="16" transform="translate(8.1582 8)"/>
-                  </clipPath>
-                </defs>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+								</g>
+								<defs class="icon-el1">
+									<clipPath id="clip0_24_233">
+										<rect width="15.8924" height="16" transform="translate(8.1582 8)"/>
+									</clipPath>
+								</defs>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
 </template>
 
 <script>
-  import CatalogProducts from "./CatalogProducts";
-  import SearchComponent from "@/components/SearchComponent";
-
-  export default {
-    name: "ShopCatalog",
-    components: {
-      CatalogProducts,
-      SearchComponent
-    }
-  }
+	import CatalogProducts from "./CatalogProducts";
+	import SearchComponent from "@/components/SearchComponent";
+	
+	export default {
+		name: "ShopCatalog",
+		components: {
+			CatalogProducts,
+			SearchComponent
+		},
+		data() {
+			return {
+				catalogUrl: '/api/products',
+				cartUrl: '/api/cart',
+				products: [],
+				filtered: [],
+				cartItems: []
+			}
+		},
+		methods: {
+			filter(userSearch) {
+				const regexp = new RegExp(userSearch, 'i');
+				this.filtered = this.products.filter(product => regexp.test(product.product_name));
+			},
+			addProduct(product) {
+				let find = this.cartItems.find((item => product.id_product === item.id_product))
+				if (find) {
+					this.$root.putJson(`${this.$root.api + this.cartUrl + "/" + find.id_product}`, {quantity: 1})
+						.then(data => {
+							if(data.result === 1){
+								find.quantity++;
+							}
+						})
+				} else {
+					const prod = Object.assign({quantity: 1}, product);
+					this.$root.postJson(`http://localhost:3000/api/cart`, prod)
+						.then(data => {
+							if (data.result === 1) {
+								this.cartItems.push(prod)
+							}
+						})
+				}
+			},
+		},
+		mounted() {
+			this.$root.getJson(`${this.$root.api + this.catalogUrl}`)
+				.then(data => {
+					for (let el of data) {
+						this.products.push(el);
+						this.filtered.push(el);
+					}
+				});
+			this.$root.getJson(`${this.$root.api + this.cartUrl}`)
+				.then(data => {
+					for (let el of data.contents){
+						this.cartItems.push(el);
+					}
+				});
+		},
+	}
 </script>

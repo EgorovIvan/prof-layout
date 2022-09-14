@@ -1,0 +1,41 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 23,
+            "id_product": 3,
+            "product_name": "Sweatshirt",
+            "price": 105,
+            "img": "http://localhost:3000/images/product-3.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 1,
+            "product_name": "Jacket",
+            "price": 145,
+            "img": "http://localhost:3000/images/product-1.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 2,
+            "product_name": "Costume",
+            "price": 119,
+            "img": "http://localhost:3000/images/product-2.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 4,
+            "product_name": "T-shirt",
+            "price": 47,
+            "img": "http://localhost:3000/images/product-4.jpg"
+        },
+        {
+            "quantity": 4,
+            "id_product": 5,
+            "product_name": "Blazer",
+            "price": 58,
+            "img": "http://localhost:3000/images/product-5.jpg"
+        }
+    ]
+}

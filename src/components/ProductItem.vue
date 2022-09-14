@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<img class="catalog__img" :src="img" alt="product-x">
+		<img class="catalog__img" :src="product.img" alt="product-x">
 		<h3 class="catalog__item-title">{{product.product_name}}</h3>
 		<p class="catalog__item-price">$ {{product.price}}</p>
 		<button v-on:click="$parent.$emit('addProduct', product)" class="collection__btn btn">
@@ -48,5 +48,6 @@
 	export default {
 		name: "ProductItem",
 		props: ['product', 'img'],
+		
 	}
 </script>

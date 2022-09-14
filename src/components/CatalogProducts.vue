@@ -1,6 +1,6 @@
 <template>
 	<div class="catalog__list">
-		<ProductItem class="catalog__item" v-for="item of products" :key="item.id_product" :img="img" :product="item"/>
+		<ProductItem class="catalog__item" v-for="item of products" :key="item.id_product" :img="item.img" :product="item"/>
 	</div>
 </template>
 
@@ -9,9 +9,9 @@
 	
 	export default {
 		name: "CatalogProducts",
-		props: ['products', 'img'],
+		props: ['products'],
 		components: {
-			ProductItem
-		}
+			ProductItem,
+		},
 	}
 </script>
