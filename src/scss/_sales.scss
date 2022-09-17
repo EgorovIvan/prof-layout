@@ -41,19 +41,19 @@
   &__item-woman {
     @include flex-center;
     flex-direction: column;
-    background-image: url('../img/for-women.jpg');
+    background-image: url('../../public/img/for-women.jpg');
   }
 
   &__item-man {
     @include flex-center;
     flex-direction: column;
-    background-image: url('../img/for-men.jpg');
+    background-image: url('../../public/img/for-men.jpg');
   }
 
   &__item-kids {
     @include flex-center;
     flex-direction: column;
-    background-image: url('../img/for-kids.jpg');
+    background-image: url('../../public/img/for-kids.jpg');
   }
 
   &__slogan {
@@ -75,7 +75,7 @@
     height: 180px;
     margin: 30px 0 0 0;
     box-sizing: border-box;
-    background-image: url('../img/accesories.jpg');
+    background-image: url('../../public/img/accesories.jpg');
     background-size: 100% auto;
 
     @include tablet {

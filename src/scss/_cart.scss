@@ -47,7 +47,7 @@
   }
 }
 
-.cart:hover .cart__overlay:before,
-.cart:hover .cart__btn {
+.catalog__item:hover .cart__overlay:before,
+.catalog__item:hover .cart__btn {
   display: flex;
 }

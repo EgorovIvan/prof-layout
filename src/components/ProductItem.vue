@@ -1,12 +1,13 @@
 <template>
-	<div>
-		<img class="catalog__img" :src="product.img" alt="product-x">
-		<h3 class="catalog__item-title">{{product.product_name}}</h3>
-		<p class="catalog__item-price">$ {{product.price}}</p>
-		<button v-on:click="$parent.$emit('addProduct', product)" class="collection__btn btn">
-			<a href="#" class="">
-				<svg class="col-icon" width="26" height="24" viewBox="0 0 32 29" fill="none">
-					<path d="M26.2009 29C25.5532 28.9738 24.9415 28.6948 24.4972 28.2227C24.0529
+	<div class="catalog__item">
+		<router-link to="/product">
+			<div class="cart">
+				<div class="cart__overlay" >
+					<img class="cart__img" :src="product.img" alt="product-x">
+					<button type="button" v-on:click="$parent.$emit('addProduct', product)" class="cart__btn btn" >
+						<a href="#" class="">
+							<svg class="col-icon" width="26" height="24" viewBox="0 0 32 29" fill="none">
+								<path d="M26.2009 29C25.5532 28.9738 24.9415 28.6948 24.4972 28.2227C24.0529
                                         27.7506 23.8114 27.1232 23.8245 26.475C23.8376 25.8269 24.1043 25.2097 24.5673
                                         24.7559C25.0303 24.3022 25.6527 24.048 26.301 24.048C26.9493 24.048 27.5717
                                         24.3022 28.0347 24.7559C28.4977 25.2097 28.7644 25.8269 28.7775 26.475C28.7906
@@ -35,12 +36,20 @@
                                         6.44301C31.9078 6.60729 31.9734 6.79569 31.9908 6.99145C32.0083 7.18721 31.9771
                                         7.38424 31.9 7.565L26.495 19.977C26.4026 20.1876 26.251 20.3668 26.0585
                                         20.4927C25.866 20.6186 25.641 20.6858 25.411 20.686H10.553Z"/>
-				</svg>
-			</a>
-			<p class="btn-text">
-				&nbsp; Add to Cart
-			</p>
-		</button>
+							</svg>
+						</a>
+						<p class="btn-text">
+							&nbsp; Add to Cart
+						</p>
+					</button>
+				</div>
+				<h3 class="catalog__item-title">{{product.product_name}}</h3>
+				<p class="catalog__item-text">Known for her sculptural takes on traditional <br> tailoring, Australian
+					arbiter
+					of cool Kym Ellery teams <br> up with Moda Operandi.</p>
+				<p class="catalog__item-price">$ {{product.price}}</p>
+			</div>
+		</router-link>
 	</div>
 </template>
 
@@ -48,6 +57,5 @@
 	export default {
 		name: "ProductItem",
 		props: ['product', 'img'],
-		
 	}
 </script>

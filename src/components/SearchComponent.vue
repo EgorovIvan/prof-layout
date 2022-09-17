@@ -1,6 +1,6 @@
 <template>
-	<form action="#" id="search" class="header__search">
-		<button id="open-search" class="header__search-btn" type="button" v-on:click="$parent.filter(userSearch)">
+	<form action="#" id="search" class="header__search" @submit.prevent="onSubmit">
+		<button id="open-search" class="header__search-btn" type="submit" v-on:click="$parent.$emit('filter', userSearch)">
 			<svg class="icon" width="27" height="28" viewBox="0 0 27 28">
 				<path d="M19.0596 17.6259C20.6713 15.8658 21.6282 13.6048 21.7698 11.2225C21.9113 8.84018 21.2288
                         6.48173 19.8369 4.54318C18.445 2.60463 16.4285 1.20404 14.126 0.576619C11.8234 -0.0508009 9.3751
@@ -28,6 +28,11 @@
 		data() {
 			return {
 				userSearch: '',
+			}
+		},
+		methods: {
+			onSubmit() {
+				console.log('submit')
 			}
 		}
 	}

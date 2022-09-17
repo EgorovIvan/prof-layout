@@ -5,13 +5,12 @@ const cart = require('./cartRouter');
 const cors = require('cors');
 const corsOptions ={
 	origin:'*',
-	credentials:true,
+credentials:true,
 	optionSuccessStatus:200,
 }
 
 app.use(express.json());
 app.use('/', express.static('public'));
-app.use('/images', express.static('server/db/img'));
 app.use('/api/cart', cart);
 app.use(cors(corsOptions));
 

@@ -10,10 +10,10 @@
 			<p class="shop-cart__text">Quantity:
 							<input class="shop-cart__input" type="text" :value="product.quantity"/>
 							<button v-on:click="$parent.$emit('removeCount', product)" class="shop-cart__count">
-								<img src="../img/minus.png"/>
+								<img src="../../public/img/minus.png"/>
 							</button>
 							<button v-on:click="$parent.$emit('addCount', product)" class="shop-cart__count">
-								<img src="../img/plus.png"/>
+								<img src="../../public/img/plus.png"/>
 							</button>
 			</p>
 			<button v-on:click="$parent.$emit('deleteItem', product)" class="shop-cart__btn-close btn-close" type="button">

@@ -6,13 +6,13 @@
   width: 1600px;
   height: 448px;
   margin: 0 auto;
-  background-image: url("../img/footer-bg.jpg");
+  background-image: url("../../public/img/footer-bg.jpg");
 
   @include tablet {
     align-items: start;
     width: 768px;
     height: 614px;
-    background-image: url("../img/footer-bg2.jpg");
+    background-image: url("../../public/img/footer-bg2.jpg");
   }
 
   @include mobile {
