@@ -24,14 +24,14 @@
             "img": "http://localhost:3000/img/product-12.jpg"
         },
         {
-            "quantity": 3,
+            "quantity": 4,
             "id_product": 1,
             "product_name": "Jacket",
             "price": 145,
             "img": "http://localhost:3000/img/product-1.jpg"
         },
         {
-            "quantity": 3,
+            "quantity": 6,
             "id_product": 2,
             "product_name": "Costume",
             "price": 119,

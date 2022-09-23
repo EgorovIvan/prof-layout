@@ -1,6 +1,6 @@
 <template>
 	<div class="catalog__item">
-		<router-link to="/product">
+<!--		<router-link to="/product">-->
 			<div class="cart">
 				<div class="cart__overlay" >
 					<img class="cart__img" :src="product.img" alt="product-x">
@@ -49,7 +49,7 @@
 					of cool Kym Ellery teams <br> up with Moda Operandi.</p>
 				<p class="catalog__item-price">$ {{product.price}}</p>
 			</div>
-		</router-link>
+<!--		</router-link>-->
 	</div>
 </template>
 
