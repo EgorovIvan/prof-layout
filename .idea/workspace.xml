@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a87c4392-00c1-481b-b633-248af626463a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/catalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/registration.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +32,9 @@
       <list>
         <option value="CSS File" />
         <option value="SCSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,8 +51,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5/project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../prof-layoutTest" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,18 +62,22 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Project\Geekbrains\prof-layout\src\js" />
-      <recent name="C:\Project\Geekbrains\prof-layout\src" />
-      <recent name="C:\Project\Geekbrains\prof-layout\src\scss" />
-      <recent name="C:\Project\Geekbrains\prof-layout\scss" />
-      <recent name="C:\Project\Geekbrains\prof-layout\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Project\Geekbrains\prof-layout\public\img" />
+      <recent name="C:\Project\Geekbrains\prof-layout\public" />
       <recent name="C:\Project\Geekbrains\prof-layout\src" />
+      <recent name="C:\Project\Geekbrains\prof-layout\src\js" />
+      <recent name="C:\Project\Geekbrains\prof-layout" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\Geekbrains\prof-layout\src\components" />
+      <recent name="C:\Project\Geekbrains\prof-layout\src" />
+      <recent name="C:\Project\Geekbrains\prof-layout\public" />
+      <recent name="C:\Project\Geekbrains\prof-layout\server" />
+      <recent name="C:\Project\Geekbrains\prof-layout\server\db\img" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -136,6 +135,22 @@
       <workItem from="1662397894448" duration="947000" />
       <workItem from="1662398862959" duration="117000" />
       <workItem from="1662399100280" duration="17813000" />
+      <workItem from="1662492984702" duration="607000" />
+      <workItem from="1662580164149" duration="2000" />
+      <workItem from="1662580189056" duration="4000" />
+      <workItem from="1662615954283" duration="1000" />
+      <workItem from="1662698844189" duration="67307000" />
+      <workItem from="1662826984699" duration="594000" />
+      <workItem from="1662904028756" duration="713000" />
+      <workItem from="1662980904048" duration="15767000" />
+      <workItem from="1663041528151" duration="37736000" />
+      <workItem from="1663132691534" duration="11653000" />
+      <workItem from="1663158080372" duration="594000" />
+      <workItem from="1663305329223" duration="26059000" />
+      <workItem from="1663346208689" duration="4000" />
+      <workItem from="1663401174689" duration="5573000" />
+      <workItem from="1663658524665" duration="33000" />
+      <workItem from="1663671698840" duration="688000" />
     </task>
     <servers />
   </component>
@@ -159,13 +174,31 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="586" y="194" key="#Inspections/0.0.1920.1032@0.0.1920.1032" timestamp="1662322989969" />
-    <state x="740" y="271" key="FileChooserDialogImpl" timestamp="1662317681516">
+    <state x="690" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1663335974011">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="740" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1662317681516" />
+    <state x="690" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1662791264922" />
+    <state x="690" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1663335974011" />
+    <state x="740" y="271" key="FileChooserDialogImpl" timestamp="1663745149230">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="740" y="271" key="FileChooserDialogImpl/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1662782299783" />
+    <state x="740" y="271" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1663745149230" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1662704660332">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1662704660332" />
     <state x="769" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1661776839481">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="769" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1661776839481" />
+    <state x="616" y="238" key="run.anything.popup" timestamp="1663335960055">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="616" y="238" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1663335960055" />
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1663320032909">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1663320032909" />
   </component>
 </project>
